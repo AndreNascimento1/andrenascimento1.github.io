@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+
+:root {
+
+    --color-background: rgba(202, 201, 201, 0.363);
+    --color-background-content: rgba(252, 250, 250, 0.507);
+
+    --color-hr: rgba(202, 201, 201, 0.363);
+    --color-icons: rgb(76, 49, 199);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif; 
+    background-color: var(--color-background);
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    height: 1px;
+    background-color: var(--color-hr);
+}
+
+h1 {
+    margin-left: 8px;
+}
+
+.main {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.blockContent {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar {
+    background-color: var(--color-background-content);
+    width: 30%;
+    margin-left: 12px;
+
+    display: flex;
+    flex-direction: column;   
+}
+
+.photo:hover {
+    opacity: 60%;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.contact, .skills, .languages { 
+    margin-left: 20px;
+}
+
+.contact div i, .languages div i, .skills div:first-child i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: var(--color-icons);
+}
+
+.skills div:first-child, .languages div:first-child {
+    margin-bottom: 10px;
+}
+
+.skills i{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.skills i:hover{
+    opacity: 70%;
+}
+
+.languages {
+    margin-bottom: 20px;
+}
+
+.languages ul li {
+    list-style: none;
+}
+
+.languages ul li i{
+    margin-right: 10px;
+    color: var(--color-icons);
+}
+
+/*
+    ******** Conteúdo ********
+*/
+
+.content {
+    background-color: var(--color-background-content);
+
+    width: 70%;
+    margin-right: 10px;
+}
+
+section {
+    padding: 20px 20px 0;
+
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+h3 i {
+    color: var(--color-icons);
+    margin-right: 10px;
+}
+
+.job i {
+    font-size: 25px;
+    color: var(--color-icons);
+}
+
+.job {
+    margin-left: 10px;
+}
+
+h4 {
+    font-size: 25px;
+}
+h5 {
+    font-size: 18px;
+    opacity: 70%;
+}
