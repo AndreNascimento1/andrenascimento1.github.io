@@ -17,13 +17,14 @@
 
 body {
     margin: 0;
+    
     font-family: "Roboto", sans-serif; 
     background-color: var(--color-background);
 }
 
 hr {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 90%;
     height: 1px;
     background-color: var(--color-hr);
@@ -31,10 +32,13 @@ hr {
 
 h1 {
     margin-left: 8px;
+    font-weight: 500;
 }
 
 .main {
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     
     display: flex;
     flex-direction: row;
@@ -50,7 +54,7 @@ h1 {
 
 .sidebar {
     background-color: var(--color-background-content);
-    width: 30%;
+    width: 25%;
     margin-left: 12px;
 
     display: flex;
@@ -67,6 +71,10 @@ h1 {
 
 .contact, .skills, .languages { 
     margin-left: 20px;
+}
+
+.contact span {
+    font-size: 15px;
 }
 
 .contact div i, .languages div i, .skills div:first-child i{
@@ -106,20 +114,24 @@ h1 {
 */
 
 .content {
-    background-color: var(--color-background-content);
 
     width: 70%;
     margin-right: 10px;
 }
 
 section {
-    padding: 20px 20px 0;
+    background-color: var(--color-background-content);
+
+    padding: 20px 20px 20px;
+    margin-bottom: 20px;
 
 }
 
 h3 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 40px;
+    font-weight: 400;
+
 }
 
 h3 i {
@@ -128,8 +140,13 @@ h3 i {
 }
 
 .job i {
-    font-size: 25px;
+    font-size: 20px;
+    margin-right: 7px;
     color: var(--color-icons);
+}
+
+.job span {
+    font-size: 20px;
 }
 
 .job {
@@ -138,8 +155,12 @@ h3 i {
 
 h4 {
     font-size: 25px;
+    font-weight: 400;
+
 }
 h5 {
-    font-size: 18px;
+    font-size: 20px;
     opacity: 70%;
+    font-weight: 400;
+
 }
