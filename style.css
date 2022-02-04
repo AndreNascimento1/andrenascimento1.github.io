@@ -169,4 +169,10 @@ h5 {
 
 }
 
-.projects
+.projects a {
+    text-decoration: none;
+}
+
+.projects a:hover {
+    color: rgba(0, 0, 0, 0.2);
+}
